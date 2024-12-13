@@ -1,0 +1,126 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
+    <link rel = "sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="crossorigin="anonymous" referrerpolicy="no-referrer "/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-lQzkmnUb8V8+xB0Vpq2kt15fok8/6SQB/NkdD9AgQ64kTCzXf7LQffOteXo7zU4sELQ8y/+8CtdVLEqQXEXRSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class ="hero">
+        <nav>
+            <h2 class="logo">Portfo<span>lio</span></h2>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <li>
+            <ul class="nav-list">
+            <a href="#" class="btn" id="btnEducation">Education</a>
+            <a href="#" class="btn" id="btnExperience">Experience</a>
+            <a href="#" class="btn" id="btnSkills">Skills</a>
+            <a href="#" class="btn" id="btnProject">Projects</a>
+            <a href="#" class="btn" id="btnContact">Contact</a>
+            <a href="https://raw.githubusercontent.com/kbrudz/PORTFOLIO/main/Kinga_Brudz.pdf" class="btn" download>CV Download</a></li>
+        </ul>
+    </li>
+        </nav>
+        <div class="content">
+            <h4>Hi, my name is</h4>
+            <h1>Kinga Brudz</h1>   
+            <div class = "box" id="aboutMeDescription">
+                <h2>I am currently working at ABB, where I apply my skills and knowledge in automation,
+                    robotics, electronics, and programming. In October, I earned my Master’s degree
+                    by defending my thesis, "Dysarthria Recognition Using Machine Learning Methods", 
+                    which focused on applying deep learning techniques for automatic speech disorder recognition. 
+                    My background combines expertise in cyber-physical systems, machine learning, and industrial process optimization.
+                    
+                    <p> Outside of academic pursuits, I am passionate about playing squash, which allows me to have an active break and maintain 
+                        a balance between work and personal life. I also enjoy spending time watching movies and series, as well as reading books, 
+                        which allows me to pursue interests beyond the world of technology.
+                    </p>
+                    </h2>
+                </div>              
+                    <div class = "box" id= "educationDescription" style="display: none;">
+                        <h2> 
+                            <p> <span> <strong>2023 - 2024 </strong></span> AGH University of Science and Technology in Kraków </p>
+                            <p> Faculty: Faculty of Electrical Engineering, Automatics, Computer Science and Biomedical Engineering </p>
+                            <p> Field of study: Automatic Control and Robotics </p>
+                            <p> Specialization: Cyber Physical Systems </p>
+                            <p> <span> <strong> 2023 - 2024 </strong> </span> Universidade de Lisboa in Portugal </p>
+                            <p> Faculty: Instituto Superior Técnico </p>
+                            <p> Field of study: Computer Science and Engineering</p>
+                            <p> <span> <strong> 2019 - 2023 </strong></span> AGH University of Science and Technology in Krakow </p>
+                            <p> Faculty: Faculty of Electrical Engineering, Automatics, Computer Science and Biomedical Engineering </p>
+                            <p> Field of study: Microelectronics in Industry and Medicine </p>
+                        </h2>
+                    </div>
+            <div class="box" id="experienceDescription" style="display: none;">
+                <h2> 
+                    <p> <span> <strong> 2022.05 - current (with a 6-month break) </strong> </span> Electronic/Hardware Product Industrialization Intern in company ABB</p>
+                    <p> Responsibility: </p>
+                    <p> 
+                        In my role, I supported the industrialization process of electronic products, with a specific focus on smart sensors designed for motor applications. 
+                        My responsibilities included preparing tests, conducting them, and creating user manuals for the devices. Additionally, 
+                        I was involved in troubleshooting issues with malfunctioning devices, utilizing both hardware and software approaches to identify the root causes of faults. 
+                        My work also involved documenting processes and collaborating with the team to optimize product efficiency and quality. </p>
+                    <p> <span> <strong> 2021.07 - 2021.09 </strong> </span> Trainee tm. Certification in company Green Cell </p>
+                    <p> Responsibility: </p>
+                    <p> 
+                        As a Trainee in the Certification Department at Green Cell, my primary role involved preparing documentation necessary for the certification of electronic 
+                        devices in the EU and the United States. These devices included power banks and electric vehicle chargers, among others. A thorough understanding of relevant 
+                        standards and regulations was essential to ensure compliance with certification requirements. My responsibilities included compiling technical documentation, 
+                        coordinating with regulatory bodies, and facilitating the certification process. Additionally, I conducted research to stay updated on evolving regulations 
+                        and standards in the industry. </p>
+                </h2>
+            </div>
+            <div class="box" id="skillsDescription" style="display: none;">
+                <h2>
+                    <li>Programming Languages: JavaScript (ES6), HTML, CSS, Python, SQL.</li>
+                    <li>Web Development: jQuery, Bootstrap, Grid, Flexbox, DOM manipulation.</li>
+                    <li>Software Development: Website creation, D3 library for data visualization.</li>
+                    <li>Hardware Design: Competent in chip design using Cadence, amplifier circuits.</li>
+                    <li>Testing and Quality Assurance: Experience in preparing and conducting tests for hardware devices.</li>
+                    <li>Languages: English (B2).</li>
+                     </h2>
+            </div>       
+            <div class="box" id="projectDescription" style="display: none;">
+                <div id="portfolio" class="project-description">
+                    <h2>1. Portfolio developed using JavaScript, HTML, and CSS, jQuery  </h2>
+                </div>
+                <div id="btnFlight" class="project-description">
+                    <h2> 2. From Delay to Departure: A Visual Journey through Air Travel Challenges in JavaScript using the D3 library </h2>
+                </div>
+                <div id="btnHumour" class="project-description">
+                    <h2>3. Humour as a trust repair strategy for social robots</h2>
+                </div>
+                <div id="btnMIDI" class="project-description">
+                    <h2>4. MIDI controller based on a touch sensor</h2>
+                </div>
+                <div id="btnYoshi" class="project-description">
+                    <h2>5. Yoshi's Game in Verilog</h2>
+                </div>
+                <div id="btnCadence" class="project-description">
+                    <h2> 6. Amplifier circuit in a voltage follower configuration with band control using a D/A converter in Cadence</h2>
+                </div>
+            </div>
+            <!-- Project Description -->
+            <div class="box" id="contactDescription" style="display: none;">
+                <h2> 
+                    <p> Phone: tel. +48 723 277 575 </p>
+                    <p> Email: kbrudz00@gmail.com </p>
+                </h2>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="/js/my.js"></script>
+    <script src ="app_web.js"></script>
+</body>
+</html>
